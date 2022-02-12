@@ -14,7 +14,7 @@
             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex text-white">
                 <a href="#acerca" class="text-sm lg:text-base">Acerca de</a>
                 <a href="#funciona" class="text-sm lg:text-base">¿Cómo funciona?</a>
-                <a href="{{route('plans')}}" class="text-sm lg:text-base">Planes y precios</a>
+                <a href="#planes" class="text-sm lg:text-base">Planes y precios</a>
                 <a href="#contacto" class="text-sm lg:text-base">Contacto</a>
                 <a href="{{route('login')}}"><i class="fas fa-user"></i></a>
             </div>
@@ -40,7 +40,7 @@
         <div class="pt-2 pb-3 space-y-5 font-bold">
             <a href="#acerca" class="block text-sm ml-3">Acerca de</a>
             <a href="#funciona" class="block text-sm ml-3">¿Cómo funciona?</a>
-            <a href="{{route('plans')}}" class="block text-sm ml-3">Planes y precios</a>
+            <a href="#planes" class="block text-sm ml-3">Planes y precios</a>
             <a href="#contacto" class="block text-sm ml-3">Contacto</a>
             <div class="border-t-2 border-black mt-3 py-1">
                 <a href="{{route('login')}}" class="ml-3 text-red-500 hover:text-red-600">Iniciar Session</a>

@@ -106,6 +106,53 @@
 
     </section>
 
+    <section id="planes" class="md:bg-gradient-to-b md:from-black md:via-slate-800 md:to-black py-8">
+        <h1 class="text-center text-white font-extrabold text-4xl py-5">LOS PLANES</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto text-white">
+            <div class="bg-slate-900 px-3 py-4 shadow-lg lg:shadow-gray-200/50">
+                <h1 class="text-center texte-3xl font-bold pt-3 pb-10">PLANEO PROVINCIA</h1>
+                <p class="text-center font-extrabold text-4xl pb-7">S/49.90</p>
+                <p class="text-sm text-center">Facturado mensual</p>
+                <div class="border-b-4 border-white mx-6 mt-12"></div>
+                <ul class="mt-9 text-center space-y-10">
+                    <li>Plan de comida semanal ajustado a los macronutrientes del usuario</li>
+                    <li>Lista de compras</li>
+                    <li>Línea de soporte de dudas</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 px-3 py-4 shadow-lg lg:shadow-gray-200/50">
+                <h1 class="text-center texte-3xl font-bold pt-3 pb-10">PLANEO BASIC LIMA</h1>
+                <p class="text-center font-extrabold text-4xl pb-7">S/89.90</p>
+                <p class="text-sm text-center">Facturado mensual</p>
+                <div class="border-b-4 border-white mx-6 mt-12"></div>
+                <ul class="mt-9 text-center space-y-10">
+                    <li>Plan de comida semanal ajustado a los macronutrientes del usuario</li>
+                    <li>Lista de compras</li>
+                    <li>Línea de soporte de dudas</li>
+                    <li>Descuentos exclusivos en compras</li>
+                    <li>Tarifa de servicio por compras</li>
+                    <li>-</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 px-3 py-4 shadow-lg lg:shadow-gray-200/50">
+                <h1 class="text-center texte-3xl font-bold pt-3 pb-10">PLANEO PRO LIMA</h1>
+                <p class="text-center font-extrabold text-4xl pb-7">S/109.90</p>
+                <p class="text-sm text-center">Facturado mensual</p>
+                <div class="border-b-4 border-white mx-6 mt-12"></div>
+                <ul class="mt-9 text-center space-y-10">
+                    <li>Plan de comida semanal ajustado a los macronutrientes del usuario</li>
+                    <li>Lista de compras</li>
+                    <li>Línea de soporte de dudas</li>
+                    <li>Descuentos exclusivos en compras</li>
+                    <li>Tarifa de servicio por compras</li>
+                    <li>Envíos gratis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <section id="contacto" class="bg-black text-white">
         <div class="max-w-3xl mx-auto ">
@@ -161,7 +208,6 @@
             </div>
         </div>
     </section>
-
 
     <script>
         let letra = document.querySelectorAll("#letra");
